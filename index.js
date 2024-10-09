@@ -32,7 +32,7 @@ async function run() {
     const user = database.collection("userCollection");
     const order = database.collection("orderCollection");
   
-
+// jwt
 
     app.post('/jwt',(req,res)=>{
       const user = req.body;
